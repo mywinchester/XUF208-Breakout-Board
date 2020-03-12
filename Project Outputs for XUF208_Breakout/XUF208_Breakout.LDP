@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\winch\OneDrive\document\XUF208_Breakout\XUF208_Breakout.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=xuf208_breakout-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=xuf208_breakout-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl

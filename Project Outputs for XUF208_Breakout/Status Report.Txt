@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [XUF208_Breakout.PrjPcb]
+   Generated File[XUF208_Breakout-RoundHoles.TXT]
+   Generated File[XUF208_Breakout-SlotHoles.TXT]
+   Generated File[XUF208_Breakout.LDP]
+   Generated File[XUF208_Breakout.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 1:26:56 On 2020/3/13

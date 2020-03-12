@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Users\winch\OneDrive\document\XUF208_Breakout\XUF208_Breakout.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.76
+RuleKind=SolderMaskExpansion|RuleName=Via SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=50Omhs Single-end Width|Scope=Board|Minimum=11.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=USB DiffPairs Clearance|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=50Omhs Single-end Clearance|Scope=Board|Minimum=6.00
