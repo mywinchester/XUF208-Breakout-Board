@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: XUF208_Breakout.PcbDoc   2020/3/25  4:03:13
+NCDrill File Report For: XUF208_Breakout.PcbDoc   2020/4/1  20:32:58
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,11 +8,11 @@ ASCII SlotHoles File : XUF208_Breakout-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             131       PTH        0.00inch (0.00mm)
+T1      12mil (0.3mm)                                             Round             133       PTH        0.00inch (0.00mm)
 T2      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
 T3      35mil (0.9mm)                                             Round             47        PTH        0.00inch (0.00mm)
 T4      26mil (0.65mm)                                            Round             2         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              184
+Totals                                                                              186
 
 Total Processing Time (hh:mm:ss) : 00:00:00
