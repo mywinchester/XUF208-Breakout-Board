@@ -1,13 +1,11 @@
 # XMOS XU(F)208 Breakout Board
-
 XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS debug port, all pin already breakout to edge of the board.
 
 ## Image
-
 <img src="image/top_view.png" height="340" width="200">
+<img src="image/buttom_view.png" height="340" width="200">
 
 ## About fabrication files
-
 Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting for fabrication files, you should not be use those files.
 
 Gerber files are exported using the following settings:
@@ -24,6 +22,7 @@ Gerber files are exported using the following settings:
 * other setting use default
 
 > `Mechanical 1`(Gerber/XUF208_Breakout.GM1) used to define board shape
+
 > `Mechanical 17`(Gerber/XUF208_Breakout.GM17) for describe impedance detail
 
 NC drill files are exported using the following settings:
