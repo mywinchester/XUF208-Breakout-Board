@@ -2,33 +2,23 @@
 FileName = XUF208_Breakout.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 17
-      File : XUF208_Breakout.GM17
+Generating : Ground Layer
+      File : XUF208_Breakout.GP1
 
-    Adding Layer      : Mechanical 17
+    Adding Layer      : Ground Layer
 
-
-Used DCodes :
-    D13
-    D103
-    D104
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : XUF208_Breakout.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
-    D103
-    D105
-    D106
-    D107
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
 *************************************************************
 
 *************************************************************
@@ -54,14 +44,102 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : XUF208_Breakout.GM1
+Generating : Top Overlay
+      File : XUF208_Breakout.GTO
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D102
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : XUF208_Breakout.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D13
+    D103
+    D105
+    D106
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Power Layer
+      File : XUF208_Breakout.GP2
+
+    Adding Layer      : Power Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : XUF208_Breakout.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : XUF208_Breakout.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D12
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : XUF208_Breakout.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D33
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
 *************************************************************
 
 *************************************************************
@@ -108,74 +186,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Power Layer
-      File : XUF208_Breakout.GP2
-
-    Adding Layer      : Power Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : XUF208_Breakout.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D33
-    D56
-    D57
-    D58
-    D59
-    D60
-    D61
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : XUF208_Breakout.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : XUF208_Breakout.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D12
-    D83
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
       File : XUF208_Breakout.GTP
 
@@ -207,6 +217,40 @@ Used DCodes :
     D30
     D31
     D32
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : XUF208_Breakout.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : XUF208_Breakout.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 17
+      File : XUF208_Breakout.GM17
+
+    Adding Layer      : Mechanical 17
+
+
+Used DCodes :
+    D13
+    D103
+    D104
 *************************************************************
 
 *************************************************************
@@ -253,49 +297,5 @@ Used DCodes :
     D90
     D91
     D92
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : XUF208_Breakout.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : XUF208_Breakout.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Ground Layer
-      File : XUF208_Breakout.GP1
-
-    Adding Layer      : Ground Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
 *************************************************************
 
