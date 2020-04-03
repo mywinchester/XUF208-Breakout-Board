@@ -1,6 +1,6 @@
 # XMOS XU(F)208 Breakout Board
 
-XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS debug port, all pin already breakout to edge of the board
+XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS debug port, all pin already breakout to edge of the board.
 
 ## Image
 
@@ -8,7 +8,8 @@ XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS de
 
 ## About fabrication files
 
-Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting fabrication files, you should not be use those files
+Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting fabrication files, you should not be use those files.
+
 
 Gerber files are exported using the following settings:
 * Unit: Inches
@@ -19,10 +20,13 @@ Gerber files are exported using the following settings:
     * Mechanical 16
     * Top Pad Master
     * Buttom Pad Master
-    and [Mechanical 1](Gerber/XUF208_Breakout.GM1) used to define board shape, [Mechanical 17](XUF208_Breakout.GM17) for describe impedance detail
 * Plot all used drill pairs
 * Use software arcs
 * other setting use default
+`[Mechanical 1](Gerber/XUF208_Breakout.GM1) used to define board shape, [Mechanical 17](XUF208_Breakout.GM17) for describe impedance detail.`
+
 
 NC drill files are exported using the following settings:
 * default
+
+### END
