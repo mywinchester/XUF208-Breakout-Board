@@ -8,12 +8,12 @@ XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS de
 
 ## About fabrication files
 
-Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting fabrication files, you should not be use those files.
+Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting for fabrication files, you should not be use those files.
 
 Gerber files are exported using the following settings:
 * Unit: Inches
 * Format: 2:5
-* Output Layout: All plot layers, except:
+* Output Layout: Plot all layers, except:
     * Mechanical 13
     * Mechanical 15
     * Mechanical 16
