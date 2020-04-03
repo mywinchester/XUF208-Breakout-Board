@@ -2,8 +2,7 @@
 XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS debug port, all pin already breakout to edge of the board.
 
 ## Image
-<img src="image/top_view.png" height="340" width="200">
-<img src="image/buttom_view.png" height="340" width="200">
+<img src="image/top_view.png" height="340" width="200"><img src="image/bottom_view.png" height="340" width="200">
 
 ## About fabrication files
 Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting for fabrication files, you should not be use those files.
