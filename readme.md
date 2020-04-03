@@ -10,7 +10,6 @@ XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS de
 
 Folder Gerber include **gerber files** and **NC drill files**. If your manufacturer using other format or setting fabrication files, you should not be use those files.
 
-
 Gerber files are exported using the following settings:
 * Unit: Inches
 * Format: 2:5
@@ -23,10 +22,11 @@ Gerber files are exported using the following settings:
 * Plot all used drill pairs
 * Use software arcs
 * other setting use default
-`[Mechanical 1](Gerber/XUF208_Breakout.GM1) used to define board shape, [Mechanical 17](XUF208_Breakout.GM17) for describe impedance detail.`
 
+`[Mechanical 1](Gerber/XUF208_Breakout.GM1) used to define board shape, [Mechanical 17](XUF208_Breakout.GM17) for describe impedance detail.`
 
 NC drill files are exported using the following settings:
 * default
 
-### END
+## Last
+Have fun with it :)
