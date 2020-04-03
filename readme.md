@@ -4,5 +4,4 @@ XMOS XU208/XUF208 series minimal system board with USB Type-C port, full XSYS de
 
 ##Image
 
-![image]{https://github.com/mywinchester/XUF208-Breakout-Board/blob/master/image/top_view.png}
-
+![picture](image/top_view.png)
