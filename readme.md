@@ -20,7 +20,7 @@ Gerber files are exported using the following settings:
 * Use software arcs
 * other setting use default
 
-> `Mechanical 1`(Gerber/XUF208_Breakout.GM1) used to define board shape
+> `Mechanical 1`(Gerber/XUF208_Breakout.GM1) for board shape
 
 > `Mechanical 17`(Gerber/XUF208_Breakout.GM17) for describe impedance detail
 
