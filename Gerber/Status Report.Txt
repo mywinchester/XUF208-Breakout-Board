@@ -10,4 +10,4 @@ From  : Project [XUF208_Breakout.PrjPcb]
 Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 16:34:21 On 2020/4/15
+Finished Output Generation At 0:46:49 On 2020/4/17

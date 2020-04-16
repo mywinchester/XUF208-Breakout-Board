@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\winch\OneDrive\document\XU208-Breakout-Board\Altium Files\XUF208_Breakout.PcbDoc
+DRC Rules Export File for PCB: C:\Users\winch\OneDrive\document\XUF208-Breakout-Board\Altium Files\XUF208_Breakout.PcbDoc
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.76
 RuleKind=SolderMaskExpansion|RuleName=Via SolderMaskExpansion|Scope=Board|Minimum=4.00
