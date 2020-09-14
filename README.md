@@ -39,7 +39,7 @@ And there have a table for complete plan:
 | X0D28(4F)             | -> I2C_SCL         | -> I2C_SCL       | -> I2C_SCL       |                    |                 |
 | X0D32(4E)             |                    |                  |                  |                    |                 |
 | X0D27(4E)             |                    |                  |                  |                    |                 |
-| X0D26(4E)             | <-> I2C_SDA        | <-> I2C_SDA      |                  |                    |                 |
+| X0D26(4E)             | <-> I2C_SDA        | <-> I2C_SDA      | <-> I2C_SDA      |                    |                 |
 | X0D35(1L)             | <- MCLK            | -> MCLK          | -> MCLK          | -> MCLK            |                 |
 | X0D19(4D)             |                    |                  |                  |                    | <- BUTTON_1     |
 | X0D18(4D)             |                    |                  |                  |                    | <- BUTTON_2     |
@@ -50,12 +50,19 @@ And there have a table for complete plan:
 | X0D15(4C)             |                    |                  |                  |                    | -> LED_3        |
 | X0D14(4C)             |                    |                  |                  |                    | -> LED_4        |
 | -                     | -                  | -                | -                | -                  | -               |
-| X0D37(1N)             | -> LRCLK           | -> LRCLK         | -> LRCLK         |                    |                 |
-| X0D36(1M)             | -> BCLK            | -> BCLK          | -> BCLK          |                    |                 |
-| X0D38(1O)             | -> DIN             | -> DIN           |                  |                    |                 |
+| X0D37(1N)             |                    | -> LRCLK         | -> LRCLK         |                    |                 |
+| X0D36(1M)             |                    | -> BCLK          | -> BCLK          |                    |                 |
+| X0D38(1O)             |                    | -> DIN           |                  |                    |                 |
 | X0D39(1P)             |                    |                  | <-DOUT           |                    |                 |
 | X0D00(1A)             |                    |                  |                  | <- S/PDIF_RX       |                 |
 | X0D11(1D)             |                    |                  |                  | -> S/PDIF_TX       |                 |
+
+Note:
+
+> ` -> ` means Input (for shield itself)  
+> ` <- ` means Output (for shield itself)  
+> ` <-> ` means Bidirectional (for shield itself)  
+> ` - ` means Placeholder
 
 ## 4. About fabrication files
 
@@ -78,8 +85,8 @@ Exported with following settings:
 - other setting use default
 
 Note:
-> `Mechanical 1`(Gerber/XUF208_Breakout.GM1) for board shape.
->
+
+> `Mechanical 1`(Gerber/XUF208_Breakout.GM1) for board shape.  
 > `Mechanical 17`(Gerber/XUF208_Breakout.GM17) for describe impedance detail.
 
 ### 4.2. NC drill files
