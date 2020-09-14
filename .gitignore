@@ -1,0 +1,49 @@
+/*
+
+# Don't ignore .gitignore file
+!.gitignore
+
+# Don't ignore README.md
+!README.md
+
+# Don't ignore Assets folder
+!Assets/
+
+# Ignore everything except project, sch, pcb files
+!Altium Files/
+Altium Files/*
+!Altium Files/**/*.SchDoc
+!Altium Files/**/*.PrjPcb
+!Altium Files/**/*.PcbDoc
+
+# Ignore everything except bom files
+!BOM/
+BOM/*
+!BOM/**/*.xlxs
+
+# Ignore everything except gerber and drill drawing files
+!Gerber/
+Gerber/*
+!Gerber/**/Status Report.Txt
+!Gerber/**/*.APR_LIB
+!Gerber/**/*.apr
+!Gerber/**/*.DRR
+!Gerber/**/*.EXTREP
+!Gerber/**/*.GBL
+!Gerber/**/*.GBO
+!Gerber/**/*.GBP
+!Gerber/**/*.GBS
+!Gerber/**/*.GD1
+!Gerber/**/*.GKO
+!Gerber/**/*.GM1
+!Gerber/**/*.GM17
+!Gerber/**/*.GP1
+!Gerber/**/*.GP2
+!Gerber/**/*.GTL
+!Gerber/**/*.GTO
+!Gerber/**/*.GTP
+!Gerber/**/*.GTS
+!Gerber/**/*.LDP
+!Gerber/**/*.REP
+!Gerber/**/*.RUL
+!Gerber/**/*.TXT
