@@ -19,7 +19,7 @@ Altium Files/*
 # Ignore everything except bom files
 !BOM/
 BOM/*
-!BOM/**/*.xlxs
+!BOM/**/*.xlsx
 
 # Ignore everything except gerber and drill drawing files
 !Gerber/
